@@ -1,11 +1,11 @@
 #include <stdio.h>
+
 /**
-* main - It is responsible for starting and terminating a program
+* main - prints the phrase "Programming is like building a multilingual puzle
+* Return: 0 if exited properly, non-zero otherwise
 */
 int main(void)
 {
-	char mystr[] = "Programming is like building a multilingual puzzle
-
-	puts(mystr);
+	puts("\"Programming is like building a multilingual puzzle\n");
 	return (0);
 }
