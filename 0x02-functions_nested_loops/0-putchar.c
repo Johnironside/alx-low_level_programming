@@ -2,16 +2,16 @@
 #include "main.h"
 
 /**
-  * main - prints _putchar
+  * _putchar - prints _putchar
   * Return: 0
   */
 
 int _putchar(void)
 {
-	char ch = _putchar;
+	char ch = '_putchar';
 
 	putchar(ch);
-	putchar('\n')'
+	putchar('\n');
 
 	return (0);
 }
